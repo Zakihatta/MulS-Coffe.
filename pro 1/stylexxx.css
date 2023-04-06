@@ -1,0 +1,128 @@
+textarea {
+  resize: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Montserrat";
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #30475e;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+.navbar-brand {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Silkscreen", cursive;
+}
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+.navbar-links a {
+  color: #fff;
+  font-size: 18px;
+  margin-right: 20px;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-family: "Silkscreen", cursive;
+}
+.navbar-links a:hover {
+  background-color: #7e8a97;
+}
+
+.atas {
+  display: block;
+}
+
+.welcome h1 {
+  font-size: 180px;
+  align-items: center;
+  font-weight: bold;
+  font-family: "Silkscreen", cursive;
+  margin-left: 45px;
+  color: #7e8a97;
+  letter-spacing: 3px;
+  margin-top: 10px;
+}
+
+.welcome h3 {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 55px;
+  color: #30475e;
+}
+
+.welcome p {
+  color: #30475e;
+  margin-left: 55px;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px 40px;
+  color: aqua;
+  background-image: linear-gradient(45deg, #7e8a97, #30475e);
+  font-size: 14px;
+  border-radius: 30px;
+  border-top-right-radius: 0;
+  margin-left: 55px;
+  margin-top: 20px;
+}
+
+.kanan-logo {
+  float: right;
+  height: auto;
+  width: 300px;
+  margin: 10px 20px 50px 30px;
+  padding: 20px;
+}
+
+hr {
+  color: black;
+  font-weight: bold;
+}
+
+.jam-operasi {
+  display: flex;
+  background-color: #30475e;
+  width: 500px;
+  height: fit-content;
+  border: 2px solid white;
+}
+
+.content-jam {
+  text-align: center;
+  padding: 20px;
+}
+
+.content-jam h2 {
+  color: #7e8a97;
+  font-family: "Silkscreen", cursive;
+  font-size: 50px;
+}
+
+.content-jam p {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  color: #cbaf87;
+  font-weight: 800;
+  margin-top: 30px;
+}

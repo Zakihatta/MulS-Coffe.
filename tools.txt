@@ -1,0 +1,41 @@
+
+TOOLS
+
+-- happyhues.co   // to get color combination
+-- colorhunt
+-- khroma
+
+-- freepik   // free image
+-- pinterest
+-- usplash
+
+-- fontspace    // font
+-- dafont
+-- googlefont
+-- fontsquirrel
+
+        [
+            Futura Black
+            Monsterrat
+            Gotham
+            Passion
+
+        ]
+
+--tome    // AI to create presentation
+
+-- fronty   // Convert design into HTML
+
+-- Pebblely  // Auto backround
+
+-- podcast.adobe
+
+-- synthesia // create an avatar video to ur content
+
+-- oxolo  // product ads
+
+-- studio.polotno.com   // canva mod
+
+
+<p>Selamat datang di website kami! Kami senang Anda bisa berkunjung ke sini dan melihat-lihat informasi yang kami sediakan. Silakan jelajahi menu kami untuk mengetahui lebih lanjut tentang produk dan layanan yang kami tawarkan. Terima kasih telah mengunjungi website kami dan semoga Anda menemukan informasi yang bermanfaat.</p>
+

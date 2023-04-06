@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mul's Coffe</title>
+
+    <!-- Link CSS JS-->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Referensi ke jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Referensi ke Slick Slider -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    ></script>
+    <script src="myStyle.js"></script>
+
+    <!-- CDN Fontawesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- LOGO -->
+    <link
+      rel="shortcut icon"
+      href="https://cdn-icons-png.flaticon.com/512/3219/3219333.png"
+      type="image/x-icon"
+    />
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,400;1,700;1,900&family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a href="#home" class="navbar-logo">Mul's <span>Coffe</span></a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#sign-in-section">Sign In</a>
+      </div>
+    </nav>
+
+    <!-- NAVBAR END -->
+
+    <!-- HOME SECTION -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Mul's <span>Coffe.</span></h1>
+        <p>
+          Selamat datang di website kami! Kami senang Anda bisa berkunjung ke
+          sini dan melihat-lihat informasi yang kami sediakan.<br />Silakan
+          jelajahi menu kami untuk mengetahui lebih lanjut tentang produk dan
+          layanan yang kami tawarkan.<br />
+          Terima kasih telah mengunjungi website kami dan semoga Anda menemukan
+          informasi yang bermanfaat.
+        </p>
+        <a href="#" class="cta">Order Here</a>
+      </main>
+    </section>
+
+    <!-- MENU SECTION -->
+    <section id="menu" class="menu">
+      <div class="atas">
+        <h2>Mul's <span>Menu.</span></h2>
+        <p>
+          Kami percaya bahwa rahasia dari hidangan yang sempurna adalah
+          bahan-bahan berkualitas dan dibuat dengan ketulusan hati dan
+          keterampilan yang terampil.<br />
+          Dalam setiap hidangan yang kami sajikan, Anda dapat merasakan sentuhan
+          personal dari koki kami yang berbakat dan berdedikasi.<br />
+          Kami yakin bahwa hanya dengan menggunakan bahan-bahan premium dan
+          proses yang hati-hati, kami dapat memberikan pengalaman kuliner yang
+          tak terlupakan untuk setiap pelanggan.<br />
+          Kami mengambil inspirasi dari berbagai masakan dan kultur untuk
+          menciptakan hidangan yang unik dan inovatif yang dapat dinikmati oleh
+          semua orang.<br />
+          Nikmati sensasi rasa yang unik dari minuman kami yang terbuat dari
+          bahan-bahan alami dan diolah secara kreatif untuk menghasilkan cita
+          rasa yang segar dan menyegarkan.<br />
+          Kami mengundang Anda untuk menjelajahi beragam pilihan menu kami yang
+          menyediakan hidangan dari berbagai jenis dan kategori untuk memenuhi
+          selera Anda. Kami selalu berusaha untuk memberikan pengalaman makan
+          yang terbaik untuk Anda dengan hidangan yang dibuat dengan hati dan
+          bahan-bahan premium yang terbaik di kelasnya.
+        </p>
+      </div>
+    </section>
+
+    <div id="slider-container">
+      <div id="main-slider">
+        <div id="side-1" class="slide card active">
+          <img
+            class="card-img-top"
+            src="https://images.unsplash.com/photo-1593412323862-55bd8bb39099?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGVzcHJlc3NvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          />
+          <div class="card-body">
+            <h5 id="title-lavado" class="card-title">Espresso</h5>
+            <p class="card-text">
+              Minuman kopi klasik yang disajikan dalam ukuran kecil dengan rasa
+              yang kuat dan konsentrat.
+            </p>
+            <div class="text-center">
+              <a class="btn-contact" href="javascript:void(0)">Add to Chart</a>
+            </div>
+          </div>
+        </div>
+        <div id="side-2" class="slide card">
+          <img
+            class="card-img-top"
+            src="https://images.unsplash.com/photo-1608591038246-4981d06b11e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bWFjY2hpYXRvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          />
+          <div class="card-body">
+            <h5 id="title-anticorrupcion" class="card-title">Macchiato</h5>
+            <p class="card-text">
+              Minuman kopi yang terbuat dari espresso dan sedikit susu foam di
+              atasnya. Minuman ini memiliki rasa kopi yang kuat dengan sentuhan
+              rasa manis dari susu foam.
+            </p>
+            <div class="text-center">
+              <a class="btn-contact" href="javascript:void(0)">Add to Chart</a>
+            </div>
+          </div>
+        </div>
+        <div id="side-3" class="slide card">
+          <img
+            class="card-img-top"
+            src="https://images.unsplash.com/photo-1574914629385-46448b767aec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bGF0dGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+          />
+          <div class="card-body">
+            <h5 id="title-sumariales" class="card-title">Latte</h5>
+            <p class="card-text">
+              Minuman kopi yang terbuat dari espresso dan susu steamed. Minuman
+              ini memiliki rasa kopi yang ringan dengan sentuhan manis dan
+              kreami dari susu steamed.
+            </p>
+            <div class="text-center">
+              <a class="btn-contact" href="javascript:void(0)">Add to Chart</a>
+            </div>
+          </div>
+        </div>
+        <div id="side-4" class="slide card">
+          <img
+            class="card-img-top"
+            src="https://images.unsplash.com/photo-1557006021-b85faa2bc5e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FwcHVjaW5vfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          />
+          <div class="card-body">
+            <h5 id="title-adhoc" class="card-title">Cappucino</h5>
+            <p class="card-text">
+              Cappuccino adalah minuman kopi yang terbuat dari espresso, susu
+              steamed, dan susu foam. Minuman ini memiliki rasa kopi yang ringan
+              dengan sentuhan manis dan kreami dari susu steamed, serta tekstur
+              lembut dan kaya dari susu foam.
+            </p>
+            <div class="text-center">
+              <a class="btn-contact" href="javascript:void(0)">Add to Chart</a>
+            </div>
+          </div>
+        </div>
+        <div id="side-5" class="slide card">
+          <img
+            class="card-img-top"
+            src="https://images.unsplash.com/photo-1589396575653-c09c794ff6a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bW9jaGF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+          />
+          <div class="card-body">
+            <h5 id="title-duediligence" class="card-title">Mocha</h5>
+            <p class="card-text">
+              Mocha adalah minuman kopi yang terbuat dari espresso, susu
+              steamed, cokelat, dan whipped cream di atasnya. Minuman ini
+              memiliki rasa kopi yang ringan dengan sentuhan manis dari cokelat
+              dan kreami dari susu steamed, serta tekstur lembut dan manis dari
+              whipped cream di atasnya.
+            </p>
+            <div class="text-center">
+              <a class="btn-contact" href="javascript:void(0)">Add to Chart</a>
+            </div>
+          </div>
+        </div>
+        <div id="side-6" class="slide card">
+          <img
+            class="card-img-top"
+            src="https://images.unsplash.com/photo-1594631661960-34762327295a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YWZmb2dhdG98ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+          />
+          <div class="card-body">
+            <h5 id="title-capacitaciones" class="card-title">Affogato</h5>
+            <p class="card-text">
+              Affogato adalah minuman kopi yang terbuat dari satu scoop es krim
+              vanila yang disiram dengan satu shot espresso. Minuman ini
+              memiliki rasa manis dan dingin dari es krim yang dipadukan dengan
+              rasa kopi yang kuat dari espresso.
+            </p>
+            <div class="text-center">
+              <a class="btn-contact" href="javascript:void(0)">Add to Chart</a>
+            </div>
+          </div>
+        </div>
+        <div id="side-7" class="slide card">
+          <img
+            class="card-img-top"
+            src="https://images.unsplash.com/photo-1580661869408-55ab23f2ca6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YW1lcmljYW5vfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          />
+          <div class="card-body">
+            <h5 id="title-fiscales" class="card-title">Americano</h5>
+            <p class="card-text">
+              Americano adalah minuman kopi yang terbuat dari espresso dan air
+              panas. Minuman ini memiliki rasa kopi yang lebih ringan daripada
+              espresso dan cocok untuk mereka yang ingin menikmati kopi dengan
+              rasa yang tidak terlalu kuat.
+            </p>
+            <div class="text-center">
+              <a class="btn-contact" href="javascript:void(0)">Add to Chart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide-indicator-container"></div>
+      <div class="slider-controls">
+        <div id="pre" class="slider-btn">
+          <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        </div>
+        <div id="nex" class="slider-btn">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+
+    <!--   about us section start   -->
+    <section id="about" class="about">
+        <h2>Tentang <span>Kami</span></h2>
+
+        <div class="rowx">
+          <div class="about-img">
+            <img src="https://images.unsplash.com/photo-1522120573867-e574959f84c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGNvZmZlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+          </div>
+          
+          <div class="content">
+            <p>
+              Selamat datang di kedai kopi kami! Kami adalah tempat yang ideal untuk
+              menikmati secangkir kopi yang nikmat sambil menikmati suasana yang
+              hangat dan akrab.<br />
+              Kami bangga dengan kopi berkualitas tinggi yang disajikan dengan cinta
+              dan perhatian yang mendalam untuk memastikan pengalaman terbaik bagi
+              para pelanggan kami. Kami berkomitmen untuk memberikan layanan yang
+              luar biasa dan memastikan setiap pelanggan merasa seperti keluarga di
+              kedai kopi kami.<br />
+              Terima kasih atas dukungan Anda, dan kami berharap Anda menikmati
+              setiap tetes kopi yang kami sajikan.<br>
+              Kedai kopi kami didirikan dengan visi untuk menjadi tempat yang hangat
+              dan nyaman bagi pecinta kopi dan juga komunitas sekitar. Kami percaya
+              bahwa kopi bukan hanya sekadar minuman, tapi juga merupakan alat untuk
+              menghubungkan orang dan menciptakan pengalaman yang tak terlupakan.<br />
+              Sejak awal berdiri, kami memilih bahan-bahan berkualitas tinggi dan
+              memastikan setiap tindakan kami menghargai lingkungan dan masyarakat
+              sekitar. Kami mengutamakan kemitraan dengan petani kopi lokal untuk
+              memastikan kualitas dan keberlanjutan hasil panen kopi.<br />
+              Kami memulai perjalanan kami dengan satu kedai kecil dan sederhana,
+              namun kami selalu mempertahankan komitmen kami untuk memberikan
+              layanan terbaik dan menyajikan kopi terbaik bagi pelanggan kami. Dalam
+              beberapa tahun terakhir, kedai kopi kami telah berkembang pesat dan
+              mendapatkan banyak penghargaan karena kualitas produk dan layanan
+              kami.<br />
+              Namun, kami tidak pernah melupakan akar kami sebagai komunitas lokal.
+              Kami tetap mempertahankan hubungan yang baik dengan tetangga kami dan
+              berusaha memberikan manfaat positif bagi masyarakat sekitar.<br />
+              Kami berterima kasih atas dukungan dan kepercayaan pelanggan kami
+              selama ini dan kami berjanji untuk terus memberikan pengalaman kopi
+              terbaik bagi Anda. Selamat datang di kedai kopi kami dan nikmatilah
+              secangkir kopi yang nikmat dalam suasana hangat dan akrab.
+            </p>
+          </div>
+        </div>
+    </section>
+
+    <!--  CONTACT SECTIONN   START  -->
+    <section id="contact" class="contact">
+      <div class="contact-atas">
+        <h2>Contact <span>Us</span></h2>
+        <p>Selalu ada waktu untuk secangkir kopi yang nikmat di tengah kesibukanmu.<br>Kualitas kopi kami selalu terjaga dengan baik karena kami mengutamakan bahan-bahan berkualitas tinggi<br>Ada banyak pilihan kopi di coffeeshop kami. Yuk, coba satu-satu dan temukan favoritmu. <br>Jangan lewatkan promo-promo menarik di coffeeshop kami. Pantau terus akun media sosial kami ya!<br>Segera kunjungi coffeeshop kami dan nikmati suasana yang cozy dan kopi yang lezat.</p>
+      </div>
+
+      <footer>
+        <div class="rounded-social-buttons">
+                          <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                          <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                          <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                          <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                          <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                      </div>
+      </footer>
+    </section>
+
+
+
+    <!--  Sing Up -->
+    <section id="sign-in-section" class="sign-in-section">
+      <h2>Sign <span>In</span></h2>
+      <div class="container">
+        <div class="login-container">
+            <input id="item-1" type="radio" name="item" class="sign-in" checked><label for="item-1" class="item">Sign In</label>
+            <input id="item-2" type="radio" name="item" class="sign-up"><label for="item-2" class="item">Sign Up</label>
+            <div class="login-form">
+                <div class="sign-in-htm">
+                    <div class="group">
+                        <input placeholder="Username" id="user" type="text" class="input">
+                    </div>
+                    <div class="group">
+                        <input placeholder="Password" id="pass" type="password" class="input" data-type="password">
+                    </div>
+      
+                    <div class="group">
+                        <input type="submit" class="button" value="Sign In">
+                    </div>
+                    <div class="hr"></div>
+                    <div class="footer">
+                        <a href="#forgot">Forgot Password?</a>
+                    </div>
+                </div>
+                <div class="sign-up-htm">
+                    <div class="group">
+                        <input placeholder="Username" id="user" type="text" class="input">
+                    </div>
+      
+                    <div class="group">
+                        <input placeholder="Email adress" id="pass" type="text" class="input">
+                    </div>
+      
+                    <div class="group">
+                        <input placeholder="Password" id="pass" type="password" class="input" data-type="password">
+                    </div>
+                    <div class="group">
+                        <input placeholder="Repeat password" id="pass" type="password" class="input" data-type="password">
+                    </div>
+      
+                    <div class="group">
+                        <input type="submit" class="button" value="Sign Up">
+                    </div>
+                    <div class="hr"></div>
+                    <div class="footer">
+                        <label for="item-1">Already have an account?</a>
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+    
+  </body>
+</html>
